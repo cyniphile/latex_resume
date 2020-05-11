@@ -5,6 +5,8 @@
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
 
+% compile here
+% https://www.overleaf.com/project/5eb5a3ed552dce00019b6155
 
 \pdfpagewidth 8.5in
 \pdfpageheight 11.0in
@@ -62,10 +64,10 @@
 \header{Education}
 \employer{Massachusetts Institute of Technology}{Cambridge, MA}{B.Sc. in Mathematics, humanities concentration in Film Studies} {Class of 2013}
 	\begin{achievements}
-	\item Phi Sigma Kappa Fraternity - President, Treasurer, Rush Chair, Social Chair
 	\item Harvard College - Cross Registration, Screenwriting 
+	\item Phi Sigma Kappa Fraternity - President, Treasurer, Rush Chair, Social Chair
 	\item MIT Wrestling - 2010 NCWA All-American, 7th place National Tournament
-	\item Producer of \emph{The Song Remains the Same} 88.1 WMBR
+	%\item Producer of \emph{The Song Remains the Same} 88.1 WMBR
 	\item 2009 National Merit Scholar, AP Scholar 
 	\end{achievements}
 
@@ -78,9 +80,12 @@
 
 \header{Experience}
 
-\employer{Custora, Inc.}{New York, NY}{Data Scientist, Customer Analytics Platform}{August 2018-Present}
+\employer{Custora, Inc.}{New York, NY}{Data Scientist, Customer Analytics Platform}{August 2018- September 2019}
 	\begin{achievements}
-	\item Developing new models of customer retention as part of a platform for customer insight
+	\item Developed new models for customer behavior as part of a platform for customer insight
+	\item Drove adoption of cloud-based notebook tooling for data science, increasing productivity, security, and collaboration
+	\item Built revenue opportunity finder in Scala/Spark, for identifying customer, product, and order types that show opportunity for increased sales
+	\item Ported return-order propensity model from R to Spark, adding unit testing and improving architecture
 	\end{achievements}
 
 \employer{SumZero, Inc.}{New York, NY}{Vice President of Data, Investment Research Web Platform}{January 2018-August 2018}
@@ -88,26 +93,27 @@
 	\begin{achievements}
 		\item Produced quantitative analyses and alpha generating stub trading strategies for marketing SumZero products, annual \href{https://sumzero.com/sp/szcomp2017}{hedge fund compensation reports}, and data-driven product design 
 		\item Produced data-driven journalism for \emph{The Wall Street Journal}, \emph{Reuters}, \emph{Business Insider}, \emph{CNBC}, \emph{Yahoo! Finance}, \emph{Bloomberg}, \emph{Institutional Investor}
-		\item Implemented weekly publication partnership of SumZero branded content in \href{http://www.barrons.com/search?keyword=view+from+the+buyside+sumzero&numResults=15&sort=date-desc&author=&searchWindow=0&minDate=&maxDate=&source=barrons}{\emph{Barron's}} and \href{https://www.forbes.com/sites/lukeschiefelbein/#7442bc65216e}{\emph{Forbes}} increasing rate of user growth by 10\%
-		\item Created scalable weekly content strategy, increased social media response to SumZero blog by 240\%
+		\item Created weekly publication partnership of SumZero branded content in \href{http://www.barrons.com/search?keyword=view+from+the+buyside+sumzero&numResults=15&sort=date-desc&author=&searchWindow=0&minDate=&maxDate=&source=barrons}{\emph{Barron's}} and \href{https://www.forbes.com/sites/lukeschiefelbein/#7442bc65216e}{\emph{Forbes}} increasing rate of user growth by 10\%
+		%\item Created scalable content marketing strategy, increased social media response to SumZero blog by 240\%
 		\item Designed and built:
 		\begin{achievements}
 		\item 13F scraper microservice in Flask and Docker, increasing responses to sales cold-calls by 20\%
 		\item New member referral and reward system in Ruby on Rails
 		\item Data pipelines for analysis (ETL) and internal dashboards
-		\item Nearest neighbors content recommender microservice using Hug and Docker
+		\item Nearest neighbors content recommender microservice
 		\end{achievements}
 		\item Coordinated with multi-billion dollar funds to market and design data products
-		\item Recruited, interviewed, and managed full time employees and summer interns
-		\item Modeled SumZero customer lifetime value using BG-NBD models, hazard modeling, and GEEs. Used results to design paid marketing strategy and procure marketing vendors.
+		\item Recruited, interviewed, and managed full time employees and interns
+		\item Modeled SumZero customer lifetime value, used results to design paid marketing strategy and procure vendors
+		%\item Modeled SumZero customer lifetime value using BG-NBD models, hazard modeling, and GEEs. Used results to design paid marketing strategy and procure marketing vendors.
 	\end{achievements}
 
 \employer{PowerAdvocate, Inc.} {Boston, MA} {Client Services Associate, Energy Supply Chain Consulting} {July 2013-April 2014}
 	\begin{achievements}
 		\item Procured \$50M worth of capital projects through bidding and contract negotiation
 		% \item Worked with clients and contractors , managed multiple projects simultaneously, on site four days/week
-		\item Initiated and built quantitative performance analytics using internal data 
-	\end{achievements}
+		% \item Initiated and built quantitative performance analytics using internal data 
+	\end{achievements} 
 
 % \employer{MIT Media Laboratory} {Cambridge, MA} {Undergraduate Researcher, Software Agents Group} {January \& May-September 2012}
 % \begin{achievements}
@@ -141,17 +147,18 @@
 
 \employer{Schiefelbein Farms, LLC } {Kimball, MN} {Various Duties for Farm and Seedstock Angus Ranch} {2005-2010}\nopagebreak[4]
 	\begin{achievements}
-		\item 	Managed work on 5000 acre family ranch, including commodity hedging, marketing, software development, and plenty of manual labor.
+		\item 	Managed work on 5000 acre family ranch, including hedging, marketing, software development, and plenty of manual labor
 	\end{achievements}
 
 % \header{Skills and Other}
 \header{Skills and Interests}
 	\vspace{-2pt}
 	\begin{achievements}
-		\item  Python (pandas, scikit-learn, statsmodels, seaborn, flask), Linux, Git, Ruby on Rails, Docker, Vim, R, SQL, HTML, \LaTeX{}
+		\item  Python + PyData Packages, Linux, Git, Ruby on Rails, Scala/Spark, Docker, Vim, R, SQL, \LaTeX{}
 		% \item	Screenwriting with Danny Rubin (\emph{Groundhog Day}) and film production with Bill Lattanzi (\emph{NOVA})
-		\item  Winner - Top 100 in Short Films: 2013 Beijing International Screenwriting Competition
-		\item Interests - film, writing, music, philosophy, cooking, math, science, technology 
+		%\item  Winner - Top 100 in Short Films: 2013 Beijing International Screenwriting Competition
+		% \item Interests - film, music, cooking, science, Dominion
+		\item Member MIT and Princeton Angel Investing Clubs of New York
 	\end{achievements}
 
 
